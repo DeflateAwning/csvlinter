@@ -21,7 +21,7 @@ jobs:
     - name: csvlinter
       uses: kcheriyath/csvlinter@V0.6.0
       with:
-        file_list: "space delmited list of files including path"
+        file_list: "space delimited list of files including path"
         find_pattern: "*.csv"
         find_path: "./data"
         fail_on_error: "false"
